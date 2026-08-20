@@ -269,18 +269,11 @@ h2 {
         word-wrap: break-word; 
         overflow-wrap: break-word;
     }
-}
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.mid-text, .gallery, .the-header {
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box;
-    padding: 15px !important;
+    .mid-text, .gallery, .the-header {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box;
+        padding: 15px !important;
+    }
 }
