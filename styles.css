@@ -170,6 +170,7 @@ h2 {
 
 .specs-table {
     width: 100%;
+    table-layout: fixed;
     border-collapse: collapse;
     background-color: rgba(15, 23, 42, 0.95);
     border: 2px solid #0070d1;
@@ -251,14 +252,22 @@ h2 {
 
 @media (max-width: 600px) {
     .the-header h1 {
-        font-size: 2rem !important; 
+        font-size: 2rem !important;
         line-height: 1.2;
     }
     
     .intro {
-        font-size: 0.95rem !important; 
+        font-size: 0.95rem !important;
         padding: 0 15px;
         box-sizing: border-box;
+    }
+
+    .specs-table th, 
+    .specs-table td {
+        padding: 10px 8px !important; 
+        font-size: 0.85rem !important; 
+        word-wrap: break-word; 
+        overflow-wrap: break-word;
     }
 }
 
