@@ -31,11 +31,11 @@
     box-sizing: border-box;
 }
 
-.gallery img{
+.gallery img {
     display: block;
     width: 100%;
-    width: 900px;
-    height: 600px;
+    max-width: 900px;
+    height: auto;
     object-fit: cover;
     border-radius: 12px;
     margin: 0 auto;
@@ -260,4 +260,18 @@ h2 {
         padding: 0 15px;
         box-sizing: border-box;
     }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.mid-text, .gallery, .the-header {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    padding: 15px !important;
 }
